@@ -9,5 +9,5 @@ class QueryKnowledgeBaseTool(BaseModel):
     async def __call__(self, rdb):
         query_vector = await get_embedding(self.query_input)
         chunks = await search_vector_db(rdb, query_vector)
-        formatted_sources = [f'SOURCE: {c['doc_name']}\n"""\n{c['text']}\n"""' for c in chunks]
+        formatted_sources = [f'SOURCE: {c["doc_name"]}\n"""\n{c["text"]}\n"""' for c in chunks]
         return f"\n\n---\n\n".join(formatted_sources) + f"\n\n---"
