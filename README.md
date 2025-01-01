@@ -1,12 +1,10 @@
-# Technology Trends AI Chatbot
+# Law Base AI Chatbot
 
-This repository contains a **Retrieval-Augmented Generation (RAG) full-stack chatbot application** built with **Python, FastAPI, Redis, React and OpenAI's GPT-4o.** The chatbot specializes in answering questions about new technology trends, powered by the latest reports from leading institutions such as the World Bank, World Economic Forum, McKinsey, Deloitte, and OECD.
+This repository contains a **Retrieval-Augmented Generation (RAG) full-stack chatbot application** built with **Python, FastAPI, Redis, React and OpenAI's GPT-4o.** The chatbot specializes in answering questions about nigeria constitution and relevant laws
 
 The application is designed to be easily customizable, allowing you to **integrate your own data sources and adapt it to different use cases.**
 
-You can access a [live demo of the RAG Chatbot application here](https://tech-trends-chatbot.codeawake.com).
-
-For a detailed walkthrough of the code and the technologies used, check out this blog post: [Building an AI Chatbot Powered by Your Data](https://codeawake.com/blog/ai-chatbot).
+You can access a [live demo of the RAG Chatbot application here](https://.com).
 
 ## Structure
 
